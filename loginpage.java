@@ -26,14 +26,14 @@ public class loginpage extends JFrame implements ActionListener
         super("LoginPage");
         setSize(350,250);
         setResizable(false);
-       // setBackground(Color.red);
+       
         setLocation(300,300);
         
         l1= new JLabel("Username");
         l2= new JLabel("Password");
         
         ImageIcon i1= new ImageIcon(ClassLoader.getSystemResource("connection/images/key_lock_billingsystem.jpg"));
-        //ImageIcon i1= new ImageIcon(ClassLoader.getSystemResource("images/lock.png"));
+        
         
         
         Image img= i1.getImage().getScaledInstance(120, 140, Image.SCALE_DEFAULT);
@@ -45,15 +45,13 @@ public class loginpage extends JFrame implements ActionListener
         t2= new JPasswordField(12);
         
           
-//        ImageIcon i3= new ImageIcon(ClassLoader.getSystemResource(""));
-//        Image img2= i3.getImage().getScaledInstance(16, 16, Image.SCALE_DEFAULT);
+
         b1= new JButton("Login");
-//        ,new ImageIcon(img2)
+
         
-//        ImageIcon i4= new ImageIcon(ClassLoader.getSystemResource(""));
-//        Image img3= i4.getImage().getScaledInstance(16, 16, Image.SCALE_DEFAULT);
+
         b2= new JButton("Cancel");
-//        ,new ImageIcon(img3)
+
         
         Font f= new Font("Arial",Font.BOLD,16);
         
